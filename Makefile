@@ -1,7 +1,7 @@
 GOMOD?=on
 
 IMAGE_SETUP=-v $(shell pwd)/.cpkg:/go/pkg -v $(shell pwd):/src -e BUILD_ENV="$(shell env | grep 'USER\|TRAVIS\|ATSU\|GITHUB')"
-IMAGE=$(IMAGE_SETUP) atsuio/gobuilder:latest
+IMAGE=$(IMAGE_SETUP) ghcr.io/atsu/gobuilder:latest
 
 build:
 	docker run --rm $(IMAGE) sqrl make

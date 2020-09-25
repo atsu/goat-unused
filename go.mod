@@ -2,6 +2,7 @@ module github.com/atsu/goat
 
 require (
 	cloud.google.com/go v0.54.0
+	cloud.google.com/go/storage v1.6.0
 	github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d // indirect
 	github.com/aws/aws-sdk-go v1.29.20
 	github.com/confluentinc/confluent-kafka-go v1.1.0
@@ -22,8 +23,8 @@ require (
 	github.com/shirou/w32 v0.0.0-20160930032740-bb4de0191aa4 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stretchr/testify v1.5.1
-	golang.org/x/crypto v0.0.0-20190909091759-094676da4a83
-	google.golang.org/api v0.10.0
+	golang.org/x/crypto v0.0.0-20191011191535-87dc89f01550
+	google.golang.org/api v0.20.0
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.2.4
 	k8s.io/api v0.0.0-20181004124137-fd83cbc87e76
