@@ -1,10 +1,10 @@
 module github.com/atsu/goat
 
 require (
-	cloud.google.com/go v0.54.0
+	cloud.google.com/go v0.54.0 // indirect
 	cloud.google.com/go/storage v1.6.0
 	github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d // indirect
-	github.com/aws/aws-sdk-go v1.29.20
+	github.com/aws/aws-sdk-go v1.33.0
 	github.com/confluentinc/confluent-kafka-go v1.1.0
 	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/go-ole/go-ole v1.2.4 // indirect
@@ -20,7 +20,6 @@ require (
 	github.com/openshift/client-go v0.0.0-20180409152027-b3f4c8b4682c
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
 	github.com/shirou/gopsutil v3.21.3+incompatible
-	github.com/shirou/w32 v0.0.0-20160930032740-bb4de0191aa4 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stretchr/testify v1.5.1
 	github.com/tklauser/go-sysconf v0.3.5 // indirect
